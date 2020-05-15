@@ -13,6 +13,10 @@ def hello():
 def classes():
     return render_template("classes.html")
 
+@app.route("/stay_at_home")
+def stay_at_home():
+    return render_template("quarantine activities.html")
+
 #start the server
 if __name__ == "__main__":
     app.run()

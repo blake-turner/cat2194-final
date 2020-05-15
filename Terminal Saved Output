@@ -1,0 +1,47 @@
+Last login: Fri May 15 13:47:47 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Blakes-MacBook-Air:~ blaketurner$ cd Desktop/cat2194-final
+(base) Blakes-MacBook-Air:cat2194-final blaketurner$ git commit -m "Commit not working"
+On branch master
+Changes not staged for commit:
+	modified:   .DS_Store
+	modified:   app.py
+	deleted:    images/.DS_Store
+	deleted:    images/blakepic.jpg
+	modified:   templates/.DS_Store
+	modified:   templates/index.html
+
+Untracked files:
+	templates/quarantine activities.html
+
+no changes added to commit
+(base) Blakes-MacBook-Air:cat2194-final blaketurner$ git add . 
+(base) Blakes-MacBook-Air:cat2194-final blaketurner$ git commit . 
+hint: Waiting for your editor to close the file... 
+"Added photo of me and new page for quarantivities"
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#         
+# Committer: Blake Turner <blaketurner@Blakes-MacBook-Air.local>
+#       
+# On branch master 
+# Changes to be committed:
+#       modified:   .DS_Store
+#       modified:   app.py
+#       deleted:    images/.DS_Store
+#       deleted:    images/blakepic.jpg
+#       modified:   templates/.DS_Store
+#       modified:   templates/index.html
+#       new file:   templates/quarantine activities.html
+#   
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
